@@ -24,6 +24,7 @@ LINE = (
 def main() -> None:
     assert 1 <= len(LINE) <= 200, "line must be 1-200 characters"
     assert LINE.strip() == LINE and LINE.strip(), "line must be non-blank"
+    assert LINE.count(".") == 1 and LINE.endswith("."), "line must be one sentence"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(LINE)
