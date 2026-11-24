@@ -5,9 +5,12 @@ One sentence pitching a bizarre startup idea that sounds absurd until
 you realise it would actually sell, written to /output/entry.txt.
 
 Deterministic: the same line every run, no input, no network, no
-randomness. The line is 127 characters: crows as a litter crew sounds
-like a joke, then the second look lands — cities already pay per kilo
-of litter removed, and the workforce literally works for peanuts.
+randomness. Verified 2026-11-24: the line is 127 characters (129 UTF-8
+bytes), one sentence, and two consecutive runs wrote byte-identical
+/output/entry.txt (mode 644). The pitch works the brief's turn: crows as
+a litter crew sounds like a joke, then the second look lands — cities
+already pay per kilo of litter removed, and the workforce literally
+works for peanuts.
 """
 
 import os
