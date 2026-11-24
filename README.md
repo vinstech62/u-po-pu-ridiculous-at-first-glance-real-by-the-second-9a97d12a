@@ -6,7 +6,7 @@
 
 One sentence pitching a bizarre startup idea that sounds ridiculous at first glance but makes sense as a real business — a crow litter crew.
 
-> We train crows to collect cigarette butts — cities pay us per kilo of litter removed, and the birds literally work for peanuts.
+> We train crows to collect cigarette butts — cities already spend millions sweeping them up, so they pay us per kilo and the birds work for peanuts.
 
 ## Run it
 
@@ -15,7 +15,7 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-`main.py` is deterministic: it always writes the same single line (127 characters) to `/output/entry.txt`. No input, no network, no randomness.
+`main.py` is deterministic: it always writes the same single line (147 characters) to `/output/entry.txt`. No input, no network, no randomness.
 
 ---
 
